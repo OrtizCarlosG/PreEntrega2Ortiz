@@ -1,5 +1,5 @@
 # GIF
-<img src="gif.gif" width="128"/>
+<img src="gif.gif"/>
 
 # Getting Started with Create React App
 
