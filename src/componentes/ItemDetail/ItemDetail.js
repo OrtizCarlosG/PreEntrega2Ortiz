@@ -2,7 +2,6 @@ import ItemCount from "../ItemCount/ItemCount"
 
 function ItemDetail({producto})
 {
-    console.log(producto);
 
     return (
         <div>

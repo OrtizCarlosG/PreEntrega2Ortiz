@@ -271,13 +271,13 @@ export const getProductos = ()=>
     );
 }
 
-export const  getProductoById = (productID) => {
-
+export const getProductById = (productId) => {
     return new Promise((resolve) => {
         setTimeout(() => {
-            resolve(productos.find(prod => prod.id === productID))
-        },  500)
-    })
+            resolve(productos.find(prod => prod.id === productId))
+        }, 500)
+    }
+);
 }
 
 export const getProductsByCategory = (categoryId) => {
